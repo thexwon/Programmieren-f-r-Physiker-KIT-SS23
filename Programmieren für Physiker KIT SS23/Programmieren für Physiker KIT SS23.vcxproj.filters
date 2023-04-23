@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programmieren für Physiker KIT SS23.cpp">
+    <ClCompile Include="Aufgabe 1.3.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

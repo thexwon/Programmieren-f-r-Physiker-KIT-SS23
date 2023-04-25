@@ -1,11 +1,16 @@
 #include <iostream>
 #include <cmath>
+
+
+
+
+
 using namespace std;
-int main()
+void aufgabe3()
 {
     float x;
     cout << "Enter float x: ";
     cin >> x;
     cout << "e^x is " << exp(x);
-    return 0;
+
 }

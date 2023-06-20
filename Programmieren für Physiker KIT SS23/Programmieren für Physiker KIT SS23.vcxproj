@@ -130,10 +130,21 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Aufgabe 13.h" />
+    <ClInclude Include="Aufgabe 15.h" />
+    <ClInclude Include="Aufgabe 18.h" />
+    <ClInclude Include="Aufgabe 21.h" />
+    <ClInclude Include="Aufgabe 8.h" />
+    <ClInclude Include="Aufgabe10.h" />
+    <ClInclude Include="Aufgabe11.h" />
+    <ClInclude Include="Aufgabe16.h" />
     <ClInclude Include="Aufgabe3.h" />
     <ClInclude Include="Aufgabe4.h" />
     <ClInclude Include="Aufgabe5.h" />
     <ClInclude Include="Aufgabe6.h" />
+    <ClInclude Include="Aufgabe7.h" />
+    <ClInclude Include="cubicroot.h" />
+    <ClInclude Include="fibonacci.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

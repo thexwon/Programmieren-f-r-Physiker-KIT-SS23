@@ -1,0 +1,12 @@
+/* * Programmieren fuer Physiker, SS 2020, Blatt 7, Aufgabe 18 * *
+Roemische Zahl in arabische Zahl umwandeln */ #include #include using
+namespace std ; // Kleinbuchstaben als Grossb. zurueckgeben, alle
+anderen unveraendert char to_upper(char ch) { if (ch>='a' and ch<='z')
+return char(int(ch)-int('a')+int('A')) ; // int() muss nicht stehen.
+else return ch ; } // den Zahlenwert eines roemischen Zahlzeichens
+ermitteln int value_roman_char( char ch) { const int nr_rm_letters = 7 ;
+const char letter[nr_rm_letters] = {'I', 'V', 'X', 'L', 'C', 'D', 'M'} ;
+const int value[nr_rm_letters] = { 1, 5, 10, 50, 100, 500, 1000} ; for
+(int i=0; iArabisch" << endl ; cout << "Bitte roemische Zahl eingeben: "
+; cin >> rm_string ; int sum = 0 ; int len = strlen(rm_string) ; for(
+int i=0; i

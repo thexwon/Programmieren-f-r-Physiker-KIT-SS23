@@ -1,0 +1,16 @@
+/* * Programmieren fuer Physiker, SS 2012, Blatt 7, Aufgabe 18 * *
+Permutationen in lexikographischer Ordnung generieren */ #include using
+namespace std ; int main() { // Beispieldatensatz, muss sortiert
+vorliegen const int size=6 ; char wort[size] = {'A','E','E','F','F','K'}
+; cout << "Generierung aller Permutationen" << endl ; cout << endl ; int
+anzperm = 1 ; // zaehle die Permutationen bool endflg = false ; // sind
+wir am Ende? // Hauptschleife, erzeuge alle Permutationen do { //
+Ausgabe der aktuellen Permutation cout << "Nr: " << anzperm << " " ;
+for( int i=0; i=0) { if (wort[k]=wort[l]) --l ; // tausche wort[k] und
+wort[l] char tmp = wort[k] ; wort[k] = wort[l] ; wort[l] = tmp ; //
+tausche alle Elemente ab k+1 bis Ende einschliesslich int t=size-1 ; //
+Indexzeiger auf letztes Element ++k ; // fange ab k+1 an while (t>k) {
+char tmp = wort[k] ; // tausche bei Indizes t und k wort[k] = wort[t] ;
+wort[t] = tmp ; --t ; ++k ; // und rechne neue Tauschpartner aus } } }
+while (not endflg) ; cout << "Anzahl der Permutationen: " << anzperm <<
+endl ; }

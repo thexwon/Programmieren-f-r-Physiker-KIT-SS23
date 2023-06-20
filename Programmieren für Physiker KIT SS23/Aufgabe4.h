@@ -21,7 +21,7 @@ void aufgabe4b()
     cout << "Enter integer N to sum up to: ";
     cin >> N;
 
-    for (int i = 1; i <= N; i++) {
+    for (int i = N; i <= 2*N; i++) {
         for (int j = 1; j <= i; j++) {
             p += 1.0 / (i * j);
                                      }

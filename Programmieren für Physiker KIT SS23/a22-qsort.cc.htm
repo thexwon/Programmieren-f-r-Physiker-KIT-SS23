@@ -1,0 +1,8 @@
+/* * Programmieren fuer Physiker, WS 09/10, Blatt 09, Aufgabe 22 * *
+Sortieren einer double-Liste mit Quicksort */ #include #include using
+namespace std ; void Tausche( double & a, double & b) { double tmp = a ;
+a = b ; b = tmp ; } int Partition( double Liste[], const int s, const
+int t) // Partitioniert im Feld Liste zweischen s und t
+(einschliesslich) // Rueckgabewert: die Position des Pivotelements {
+double pivot=Liste[s] ; // nimm' einfach das erste Element... int l=s ;
+for( int i=s+1; i<=t; i++) if (Liste[i]

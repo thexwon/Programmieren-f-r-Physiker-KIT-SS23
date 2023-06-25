@@ -134,6 +134,7 @@
     <ClInclude Include="Aufgabe 15.h" />
     <ClInclude Include="Aufgabe 18.h" />
     <ClInclude Include="Aufgabe 21.h" />
+    <ClInclude Include="Aufgabe 23.h" />
     <ClInclude Include="Aufgabe 8.h" />
     <ClInclude Include="Aufgabe10.h" />
     <ClInclude Include="Aufgabe11.h" />

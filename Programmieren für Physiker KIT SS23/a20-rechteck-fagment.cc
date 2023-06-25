@@ -11,15 +11,15 @@ using namespace std ;
 // drei Methoden setze, rotation und bedeckt 
 class rechteck {        
 private: 
-    float length;
-    float width;
+    double length;
+    double width;
 public:              
-    void setze(float l, float w) {  
+    void setze(double l, double w) {  
         length = l;
         width = w;
     }
     void rotation() {
-      float temp = length;
+      double temp = length;
         length = width;
         width = temp;
     }
@@ -45,13 +45,13 @@ public:
 // gegebenes Hauptprogramm
 int aufgabe20()
 {
-    cout << "Klasse für Rechtecke" << endl ;
+    cout << "Klasse fuer Rechtecke" << endl ;
     rechteck r1, r2 ;
-    int w1, w2, l1, l2;
-    cout << "Länge und Weite für Rechteck 1 \n";
+    double w1, w2, l1, l2;
+    cout << "Laenge und Weite fuer Rechteck 1";
     cin>> w1;
     cin >>l1;
-    cout << "Länge und Weite für Rechteck 2\n";
+    cout << "Laenge und Weite fuer Rechteck 2";
     cin >> w2;
     cin >> l2;
     r1.setze( w1,l1) ;

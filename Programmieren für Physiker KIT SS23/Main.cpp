@@ -13,13 +13,14 @@
 #include "Aufgabe 18.h"
 #include "a20-rechteck-fagment.cc"
 #include "Aufgabe 21.h"
+#include "Aufgabe 23.h"
 
 using namespace std;
 int main()
 {
 	do  {
-		aufgabe21();
-	} while (true);
+		aufgabe23();
+	} while (false);
 
 	return(0);
 }
